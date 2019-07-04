@@ -1,0 +1,209 @@
+body {
+	margin: 0; /*Убираем отступы фона в body*/
+	font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+.container {
+	max-width: 1170px; /* Максимальная ширина */
+	margin-left: auto;
+	margin-right: auto;
+
+	/*display: flex;*/
+	/*justify-content: space-between;*/
+}
+
+.row {
+	display: flex;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+/*Header*/
+
+.header {
+	width: 100%;
+	height: 100%;
+	background-color: #4D8CB7;
+	background: url('./img/bg.jpg');
+	background-position: top center;
+	background-repeat: no-repeat; /* отключить дублирование изображения */
+	background-size: cover; /* "Обложка" - растянуть на весь экран */
+
+	display: flex; /* Включение Flex разметки */
+	flex-direction: column;
+	align-items: center;
+}
+
+.nav {
+	margin-top: 75px;
+
+	display: flex;
+	flex-direction: row;
+	width: 750px;
+	justify-content: space-between; /* Выравнивание по основной линии контента: 1- слева, последний- справа, остальные - по середине*/
+	margin-bottom: 95px;
+}
+.nav__link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 36px;
+	/*background-color: #F6CA00;*/
+	
+}
+.photo-wrapper {
+	width: 225px;
+	height: 225px;
+	background-color: #fff;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.photo-img {
+	max-width: 100%;
+	height: auto;
+}
+
+.title {
+	font-size: 58px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.slogan {
+	font-size: 36px;
+	color: #fff;
+	margin-bottom: 60px;
+
+}
+
+.social-wrapper {
+	height: 100px;
+	width: 600px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.social-icon {
+	height: 50px;
+	width: 50px;
+	background: #fff;
+	margin: 10px;
+	border-radius: 50%;
+	color: #000;
+
+	font-size: 30px;
+	text-decoration: none;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-icon .fa-vk {
+	color: #5080B8;
+}
+.social-icon .fa-linkedin-in {
+	color: #5080B8;
+}
+
+
+/* Секция обо мне */
+
+.section-about-me {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.about-photo {
+	width: 470px;
+}
+
+.about-photo-img {
+	max-width: 100%;
+	height: auto;
+}
+
+.about-content {
+	width: 570px;
+	font-size: 22px;
+	line-height: 1.5;
+}
+
+.about-title {
+	color: #0060A1;
+	font-size: 58px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.about-content p {
+	font-size: 22px;
+	line-height: 1.5;
+}
+
+.about-list {
+	list-style-type: circle;
+	margin-top: 0;
+	padding-left: 20px;
+}
+
+
+/* Portfolio */
+
+.section-portfolio {
+	padding-top: 90px;
+	padding-bottom: 120px;
+	background-color: #272628;
+}
+
+.section-title-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-bottom: 80px;
+}
+
+.section-title {
+	font-size: 58px;
+	color: #fff;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.section-subtitle {
+	font-size: 36px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.portfolio-item {
+
+}
+
+.portfolio-item-img {
+	margin-bottom: 30px;
+}
+
+.portfolio-item-title {
+	font-size: 36px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.portfolio-item-link {
+	color: #A9D2FF;
+	font-size: 26px;
+	text-decoration: underline;
+}
+
+.portfolio-item-link:hover {
+	color: #F7C51A;
+}
